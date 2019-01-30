@@ -1,0 +1,7 @@
+CREATE DATABASE burgers_db;
+CREATE TABLE burgers(
+id INTEGER PRIMARY KEY AUTO_INCREMENT,
+burger_name VARCHAR(100),
+devoured BOOLEAN
+);
+
