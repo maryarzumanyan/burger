@@ -9,7 +9,10 @@ Web application to help customers order various types of burgers and mark them a
 ## Initial Setup
 1. Place you MySql root password to the following file: .env. File contents should look like:
 ```
-PASSWORD=my_super_secure_password_12345
+DB_HOST=host_name_where_database_runs
+DB_USER=root_or_other
+DB_PASS=my_super_secure_password_12345
+DB_NAME=burgers_db
 ```
 2. Run the following SQL script in MySql: db/schema.sql
 3. Run the following SQL script in MySql: db/seeds.sql
