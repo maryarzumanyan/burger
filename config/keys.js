@@ -1,3 +1,3 @@
 exports.sql = {
-  process.env.PASSWORD
+  psd: process.env.PASSWORD,
 };
